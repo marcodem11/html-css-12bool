@@ -5,3 +5,18 @@
     color: white;
     text-align: center;
 }
+
+[class*="col"] > .row{
+    padding: 0 20px;
+}
+
+[class*="col"] > .row [class*="col"] {
+    background-color: #00E165;
+    border: 1px solid #006CFA;
+    color: white;
+    text-align: center;
+}
+
+section{
+    margin-bottom: 25px;
+}
