@@ -1,0 +1,7 @@
+.all [class*="col"]{
+    background-color: #006CFA;
+    padding: 20px 0;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
