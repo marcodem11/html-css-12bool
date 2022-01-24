@@ -1,5 +1,5 @@
 .all [class*="col"]{
-    background-color: #006CFA;
+    background-color: #fa0000;
     padding: 20px 0;
     border: 1px solid white;
     color: white;
@@ -11,12 +11,20 @@
 }
 
 [class*="col"] > .row [class*="col"] {
-    background-color: #00E165;
-    border: 1px solid #006CFA;
+    background-color: #0004ff;
+    border: 1px solid #fa0000;
     color: white;
     text-align: center;
 }
 
 section{
     margin-bottom: 25px;
+}
+
+.row .grande{
+    height: 100px;
+}
+
+.row .normale{
+    max-height: 50px;
 }
